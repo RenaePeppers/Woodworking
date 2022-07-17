@@ -55,6 +55,7 @@ img {
 
 .logo-small {
   width: auto;
+  margin-top: 15px;
 }
 
 .hidden {
@@ -77,6 +78,7 @@ img {
   color: #fff;
   padding: 10px;
   margin: 0 5px;
+  font-size: 1.3rem;
 }
 .navbar a:hover {
   border-bottom: 2px #fff solid;
@@ -198,12 +200,12 @@ textarea
 
 .testimonials {
 align-self: center;
-  max-width: 1100px;
-  margin: 100px;
-  padding: 10px;
+  /* max-width: 1100px; */
+  /* margin: 100px; */
+  padding: 30px;
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
-  gap: 30px;
+  /* gap: 30px; */
   align-items: center;
   background: #6b747c;
 
@@ -219,21 +221,21 @@ align-self: center;
 }
 
 .image-width1 {
-  max-width:300px;
-  max-height: 300px;
+  max-width:500px;
+  max-height: 500px;
 }
 .image-width2 {
-max-width: 300px;
-max-height: 600px;
+max-width: 500px;
+max-height: 500px;
 }
 
 .image-width3 {
-max-width: 300px;
-max-height: 300px;
+max-width: 500px;
+max-height: 500px;
 }
 .image-width4 {
-max-width: 300px;
-max-height: 300px;
+max-width: 500px;
+max-height: 500px;
 }
 
 figcaption{
@@ -312,6 +314,21 @@ color:#fff;
 
 
 /* Tablets and under */
+@media (max-width: 685px){
+.navbar {
+  height: 200px;
+}
+
+.navbar .flex {
+  flex-direction: column;
+}
+
+.navbar ul {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+}
+
 @media (max-width: 768px) {
     .grid,
     .showcase .grid,
@@ -366,7 +383,7 @@ color:#fff;
   /* Mobile */
   @media (max-width: 500px) {
     .navbar {
-      height: 150px;
+      height: 200px;
     }
   
     .navbar .flex {
