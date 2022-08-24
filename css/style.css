@@ -236,6 +236,9 @@ textarea  {
    font-family:'Roboto', sans-serif;
    font-size: 12px;   
 }
+.della-span {
+  font-family: 'Della Respira', sans-serif;
+}
 
 /* cloud on Contact Us */
 .cloud {
@@ -557,6 +560,9 @@ color:#fff;
 
     .testimonials img {
       width:100%;
+    }
+    .footer{
+      text-align: center;
     }
   }
   
